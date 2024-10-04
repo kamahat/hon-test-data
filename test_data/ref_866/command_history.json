@@ -1,0 +1,320 @@
+[
+    {
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-xx11-xx11-111111111111#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {},
+            "ancillaryParameters": {
+                "programRules": {
+                    "fixedValue": {
+                        "tempSelZ1": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "17",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ1",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "5",
+                                    "typology": "fixed"
+                                }
+                            }
+                        },
+                        "tempSelZ2": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ2",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "-24",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "-18",
+                                    "typology": "fixed"
+                                }
+                            }
+                        }
+                    },
+                    "typology": "fixed",
+                    "category": "rule",
+                    "mandatory": 0
+                }
+            },
+            "applianceType": "REF",
+            "attributes": {
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "device": {
+                "appVersion": "2.10.6",
+                "deviceModel": "s5e9925",
+                "osVersion": "34",
+                "mobileId": "x1xx1x11x111xxx1",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "tempSelZ3": "4"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z"
+    },
+    {
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-xx11-xx11-111111111111#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {},
+            "ancillaryParameters": {
+                "programRules": {
+                    "fixedValue": {
+                        "tempSelZ1": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "17",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ1",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "5",
+                                    "typology": "fixed"
+                                }
+                            }
+                        },
+                        "tempSelZ2": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ2",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "-24",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "-18",
+                                    "typology": "fixed"
+                                }
+                            }
+                        }
+                    },
+                    "typology": "fixed",
+                    "category": "rule",
+                    "mandatory": 0
+                }
+            },
+            "applianceType": "REF",
+            "attributes": {
+                "prStr": "PROGRAMS.REF.AUTO_SET",
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "device": {
+                "appVersion": "2.9.6",
+                "deviceModel": "s5e9925",
+                "osVersion": "34",
+                "mobileId": "x1xx1x11x111xxx1",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "intelligenceMode": "1"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z"
+    },
+    {
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-xx11-xx11-111111111111#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {},
+            "ancillaryParameters": {
+                "programRules": {
+                    "fixedValue": {
+                        "tempSelZ1": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "17",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ1",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "5",
+                                    "typology": "fixed"
+                                }
+                            }
+                        },
+                        "tempSelZ2": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ2",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "-24",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "-18",
+                                    "typology": "fixed"
+                                }
+                            }
+                        }
+                    },
+                    "typology": "fixed",
+                    "category": "rule",
+                    "mandatory": 0
+                }
+            },
+            "applianceType": "REF",
+            "attributes": {
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "device": {
+                "appVersion": "2.9.6",
+                "deviceModel": "s5e9925",
+                "osVersion": "34",
+                "mobileId": "x1xx1x11x111xxx1",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "tempSelZ3": "5"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z"
+    },
+    {
+        "timestampAccepted": "1970-01-01T00:00:00.0Z",
+        "timestampExecuted": "1970-01-01T00:00:00.0Z",
+        "SK": "xxxXxxxxxx#xxxxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "PK": "xxxx#xx-xxxx-1:x1x111x1-xx11-xx11-xx11-111111111111#xxx#xx-xx-xx-xx-xx-xx",
+        "SK_Secondary": "xxxXxxxxxx#1111-11-11X11:11:11.1X",
+        "command": {
+            "macAddress": "xx-xx-xx-xx-xx-xx",
+            "commandName": "startProgram",
+            "applianceOptions": {},
+            "ancillaryParameters": {
+                "programRules": {
+                    "fixedValue": {
+                        "tempSelZ1": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "17",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ1",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "5",
+                                    "typology": "fixed"
+                                }
+                            }
+                        },
+                        "tempSelZ2": {
+                            "@holidayMode": {
+                                "1": {
+                                    "fixedValue": "@tempSelZ2",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@quickModeZ2": {
+                                "1": {
+                                    "fixedValue": "-24",
+                                    "typology": "fixed"
+                                }
+                            },
+                            "@intelligenceMode": {
+                                "1": {
+                                    "fixedValue": "-18",
+                                    "typology": "fixed"
+                                }
+                            }
+                        }
+                    },
+                    "typology": "fixed",
+                    "category": "rule",
+                    "mandatory": 0
+                }
+            },
+            "applianceType": "REF",
+            "attributes": {
+                "prStr": "PROGRAMS.REF.AUTO_SET",
+                "channel": "mobileApp",
+                "origin": "standardProgram"
+            },
+            "device": {
+                "appVersion": "2.9.6",
+                "deviceModel": "s5e9925",
+                "osVersion": "34",
+                "mobileId": "x1xx1x11x111xxx1",
+                "mobileOs": "android"
+            },
+            "parameters": {
+                "intelligenceMode": "1"
+            },
+            "transactionId": "xx-xx-xx-xx-xx-xx_1970-01-01T00:00:00.0Z",
+            "timestamp": "1970-01-01T00:00:00.0Z"
+        },
+        "lastUpdate": "1970-01-01T00:00:00.0Z"
+    }
+]
